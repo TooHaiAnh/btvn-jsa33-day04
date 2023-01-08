@@ -1,0 +1,35 @@
+$ABackground: black;
+$AColor: inherit;
+$BColor: white;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  background-color: $ABackground;
+  width: 100%;
+  color: $BColor;
+  display: flex;
+  justify-content: space-between;
+  ul.header1 {
+    list-style: none;
+    display: flex;
+    li.head {
+      list-style: none;
+      background: $ABackground;
+      padding: 1px 34px;
+    }
+  }
+}
+a {
+  background: $ABackground;
+  color: $AColor;
+  text-decoration: none;
+}
+.item:hover {
+  background-color: $BColor;
+  color: $ABackground;
+}
